@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fragment_home_gridview2_imageview1"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/fragment_home_gridview2_imageview2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/fragment_home_gridview2_textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日签到"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fragment_home_gridview2_textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:maxLines="2"
+        android:text="每日签到" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_home_gridview2_textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每日签到"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/fragment_home_gridview2_textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="每日签到" />
+
+    </LinearLayout>
+
+</LinearLayout>

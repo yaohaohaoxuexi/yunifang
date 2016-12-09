@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">御泥坊</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_classify">分类</string>
+    <string name="tab_shopping">购物</string>
+    <string name="tab_user">我的</string>
+</resources>

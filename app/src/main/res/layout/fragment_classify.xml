@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fragment_clssify_et_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorgGray"
+        android:background="@color/colorBottomBackground"
+        android:drawableLeft="@drawable/icon_search"
+        android:hint="请输入商品名称" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_classify_facial_mask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@drawable/classify_facial_mask" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/fragment_classify_emollient_water"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:src="@drawable/classify_emollient_water" />
+
+                        <ImageView
+                            android:id="@+id/fragment_classify_body_lotion"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:src="@drawable/classify_body_lotion" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/fragment_classify_facial_cleanser"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:src="@drawable/classify_facial_cleanser" />
+
+                        <ImageView
+                            android:id="@+id/fragment_classify_other"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:src="@drawable/classify_other" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/fragment_classify_kit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:src="@drawable/classify_kit" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="按功效"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="美丽从选对产品开始"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_classify_hydrating"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/classify_hydrating" />
+
+                <ImageView
+                    android:id="@+id/fragment_classify_soothing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/classify_soothing" />
+
+                <ImageView
+                    android:id="@+id/fragment_classify_control_oil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/classify_control_oil" />
+
+                <ImageView
+                    android:id="@+id/fragment_classify_whitening"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/classify_whitening" />
+
+                <ImageView
+                    android:id="@+id/fragment_classify_firming"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/classify_firming" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="按肤质"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="适合自己才是最好的"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#CCCC99"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#混合性肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF9999"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#中性肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#9999FF"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#干性肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#99CC99"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#油性肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#FF9999"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#痘痘肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fragment_classify_skin_6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#99FFFF"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="#敏感肤质#"
+                    android:textColor="@color/colorShape"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_triangle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="明星产品"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+            <GridView
+                android:id="@+id/fragment_classify_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="2240dp"
+                android:numColumns="2" />
+
+            <TextView
+                android:id="@+id/fragment_classify_check_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="查看所有商品"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>
